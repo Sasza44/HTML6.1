@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Monsterrat-SemiBold";
+    src: url('img6/Montserrat-SemiBold.woff');
+}
+@font-face{
+    font-family: "Monsterrat-ExtraBold";
+    src: url('img6/Montserrat-ExtraBold.woff');
+}
+header{
+    background-color: rgb(19, 18, 16);
+    padding: 40px 0 40px 0;
+    overflow: auto;
+}
+.header_container{
+    width:100%;
+    padding-left: 50px;
+}
+.header_container-1{
+    float:left;
+}
+.header_container_info{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+span{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 18px;
+    color:white;
+    float:left;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.white_button{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 16px;
+    color:rgb(19, 94, 196);
+    background-color: white;
+    width:100px;
+    height: 50px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.chance{
+    background-image: url('img6/picture4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 712px;
+}
+.chance_container{
+    background-color: rgb(19, 18, 16);
+    width: 100%;
+}
+h4{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 18px;
+    color:white;
+    background-color: rgb(19, 18, 16);
+    width:100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top_menu_container{
+    background-color: rgb(19, 18, 16);
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 40px;
+}
+.top_menu{
+    background-color: rgb(19, 18, 16);
+    width:80%;
+}
+.top_menu_item{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 30px;
+    color: rgb(60, 60, 60);
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 20%;
+    float:left;
+    border-bottom-width: 2px;
+    border-color: rgb(60, 60, 60);
+    border-style: solid;
+    margin-right: 5%;
+}
+.blue_button{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 16px;
+    color:white;
+    background-color: rgb(19, 94, 196);
+    width:25%;
+    height: 50px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.take_your_best{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 18px;
+    color:rgb(190, 190, 190);
+    background-color: white;
+    width:100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.car_brends{
+    background-color: white;
+    width:100%;
+    overflow: auto;
+    padding-bottom: 200px;
+}
+.car_brend{
+    width:14%;
+    height: 140px;
+    float:left;
+    padding-left: 4%;
+}
+.bmw_series_container{
+    background-color: white;
+    width:100%;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+.bmw_container{
+    background-color: white;
+    width:50%;
+    float:left;
+}
+.bmw{
+    background-image: url('img6/bmw.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 400px;
+}
+h5{
+    background-color: white;
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 60px;
+    color: rgb(19, 94, 196);
+}
+p{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 16px;
+    color:rgb(190, 190, 190);
+    line-height: 48px;
+    width: 90%;
+    padding: 40px 0px 40px 0px;
+}
+h3{
+    background-color: rgb(19, 94, 196);
+    font-family: "Monsterrat-SemiBold";
+    font-size: 60px;
+    color:white;
+    width:100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.add_now_container{
+    background-color: rgb(19, 94, 196);
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+.add_now_container-1{
+    width:15%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add_now{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 16px;
+    color:white;
+    background-color: rgb(19, 94, 196);
+    width:100%;
+    height: 50px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+.jeep_container{
+    background-color: white;
+    width:100%;
+}
+.jeep{
+    background-image: url('img6/picture12.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 400px;
+}
+.mercedes_container{
+    background-color: white;
+    width:100%;
+    overflow: auto;
+    height: 800px;
+}
+.mercedes_container-1{
+    background-color: white;
+    width:85%;
+    overflow: auto;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mercedes_cars{
+    background-color: white;
+    width:28%;
+    overflow: auto;
+    float:left;
+    margin-top: 50px;
+}
+.mercedes_cars-1{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.mercedes_cars-2{
+    background-image: url('img6/picture13.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 300px;
+}
+h6{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.mercedes_cars_blue{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 14px;
+    color: rgb(19, 94, 196);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.white_button_fresh{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 14px;
+    color:rgb(19, 94, 196);
+    background-color: white;
+    width:25%;
+    height: 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor:pointer;
+    margin-top: 20px;
+    float:right;
+    margin-right: 20px;
+}
+.diesel_2013{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 18px;
+    color:rgb(190, 190, 190);
+    text-align: center;
+}
+.more_info_container{
+    background-color: white;
+    width:100%;
+}
+.dollars15000{
+    font-family: "Monsterrat-SemiBold";
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    color:rgb(26, 171, 44);
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    float:left;
+}
+.more_info{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 18px;
+    color:white;
+    background-color: rgb(190, 190, 190);
+    width:40%;
+    height: 50px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    float:right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.mercedes_cars-3{
+    background-color: white;
+    width: 60%;
+    overflow: auto;
+    height: 800px;
+    float:right;
+}
+.mercedes_cars-4{
+    background-image: url('img6/picture14.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 800px;
+}
+.mercedes-cars{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 14px;
+    color:rgb(190, 190, 190);
+    text-transform: capitalize;
+    padding-top: 55px;
+    float:left;
+}
+h6.blue{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 30px;
+    color:rgb(19, 94, 196);
+    clear:both;
+    text-align: left;
+    padding-top: 100px;
+}
+p.merc{
+    width:40%;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: white;
+    width:100%;
+    overflow: auto;
+    height: 1000px;
+}
+.footer-1{
+    background-color: white;
+    width: 80%;
+    overflow: auto;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_item{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 18px;
+    color:rgb(190, 190, 190);
+    width: 25%;
+    padding-left: 50px;
+    float: left;
+}
+.footer_item-1{
+    color:black;
+}
+.empty{
+    width: 100%;
+    clear: both;
+    height: 100px;
+}
+.hide_button_container{
+    width: 15%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.blue_button-1{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 12px;
+    color:white;
+    background-color: rgb(19, 94, 196);
+    width:100%;
+    height: 30px;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+}
+.empty-1{
+    height: 66px;
+}
+.footer-2{
+    background-color: rgb(19, 94, 196);
+    width: 80%;
+    overflow: auto;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_item-2{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 18px;
+    color:rgb(190, 190, 190);
+    width: 20%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    float: left;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(190, 190, 190);
+    margin-left: 3%;
+}
+.footer_item-3{
+    color:white;
+}
+.grey_button{
+    font-family: "Monsterrat-ExtraBold";
+    font-size: 16px;
+    text-transform: uppercase;
+    color:rgb(19, 94, 196);
+    background-color: rgb(190, 190, 190);
+    width:100%;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
